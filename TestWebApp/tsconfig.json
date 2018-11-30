@@ -1,22 +1,13 @@
 ﻿{
   "compilerOptions": {
-    "strict": true, // Includes: alwaysStrict, noImplicitAny, noImplicitThis, strictNullChecks
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true,
     "noEmitOnError": true,
-    "sourceMap": true,
     "removeComments": true,
     "skipLibCheck": true,
     "target": "es5",
-    "module": "esnext", // Could be es6 but its in case we use Dynamic import()
+    "module": "commonjs",
     "moduleResolution": "Node",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "typeRoots": ["node_modules/@types"],
     "lib": [
       "dom",
       "es2015.promise",
