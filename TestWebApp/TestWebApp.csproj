@@ -155,7 +155,6 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="webpack.common.js" />
     <Content Include="webpack.dev.js" />
     <Content Include="src\index.css" />
     <Content Include="ApplicationInsights.config">
