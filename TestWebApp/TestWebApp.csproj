@@ -153,7 +153,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="webpack.dev.js" />
     <Content Include="src\index.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -166,6 +165,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="tsconfig.json" />
+    <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
