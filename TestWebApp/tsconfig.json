@@ -7,12 +7,7 @@
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "Node",
-    "typeRoots": ["node_modules/@types"],
-    "lib": [
-      "dom",
-      "es2015.promise",
-      "es5"
-    ]
+    "typeRoots": ["node_modules/@types"]
   },
   "exclude": [
     "node_modules",
