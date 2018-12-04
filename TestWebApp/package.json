@@ -23,7 +23,7 @@
     "webpack-cli": "3.1.2"
   },
   "scripts": {
-    "build:dev": "webpack",
+    "build:dev": "webpack --mode development",
     "build:dev-watch": "webpack --config webpack.dev.js --watch ./src"
   }
 }
